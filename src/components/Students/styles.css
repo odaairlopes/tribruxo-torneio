@@ -1,0 +1,47 @@
+.box-pai {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+h2 {
+  font-size: 25px;
+}
+
+.card-students {
+  border: 2px solid white;
+}
+
+.card-students-grif {
+  border: 2px solid red;
+}
+
+.card-students-slyt {
+  border: 2px solid green;
+}
+
+.card-students-huff {
+  border: 2px solid yellow;
+}
+
+.card-students-raven {
+  border: 2px solid darkblue;
+}
+
+@media (max-width: 425px) {
+  .box-pai {
+    width: 50%;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  img {
+    width: auto;
+    height: 200px;
+  }
+}
